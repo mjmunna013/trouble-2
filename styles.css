@@ -1,0 +1,492 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish:wght@400;800&family=Oswald&display=swap');
+</style>
+
+/*shard style*/
+
+
+*{
+
+font-family: 'Mulish', sans-serif;
+
+}
+
+
+/*navbar section style*/
+
+
+header{
+    padding: 50px 150px;
+    /* max-width: 1400px; */
+}
+.bac-img{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+}
+
+.nav-part1{
+    display: flex;
+    gap: 30px;
+}
+
+.sied-color1{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.sied-color2{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    color: var(--Dark-02, #424247);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+
+
+.bac-img{
+    width: 1170px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 16px;
+padding: 50px 240px;
+margin-top: 50px;
+background-repeat: no-repeat;
+}
+
+.travel-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    position: relative;
+}
+
+.travel-dec{
+    color: #FFF;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.secrch-bir{
+justify-content: center;
+padding: 16px;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+
+
+.sec1{
+    width: 100px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+}
+
+
+.btn{
+ width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+}
+
+
+/*mid section part2*/
+
+.continer2{
+display: flex;
+}
+
+.pera{
+    margin-right: 50px;
+}
+
+.mdi-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.mid-dec{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.para1{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+
+}
+
+.butt{
+ width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: white;
+}
+
+.mid-mig2{
+    width: 540px;
+height: 550px;
+border-radius: 16px
+}
+
+.title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.dec{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.img-continer{
+
+}
+
+
+
+.us-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.us-dec{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+
+.card-continer{
+    display: flex;
+    gap: 20px;
+}
+
+.card1{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+
+.card-title{
+    color: #131318;
+text-align: center;
+font-size: 24px;
+font-weight: 800;
+}
+.card-dec{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+.card2{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.lest-card{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-top: 20px;
+margin-left: 250px;
+}
+
+
+
+
+
+
+.dealstitle{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.deals-dec{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+/*Why Choose Us end*/
+
+
+
+.tour-to{
+    background-image: url(Images/Group\ 39.png);
+
+}
+
+.tour-mj{
+    background-image: url(Images/Group\ 40.png);
+}
+
+.tour-heleskay{
+    background-image: url(Images/Group\ 39.png);
+}
+
+.tour-to{
+    width: 1170px;
+height: 500px;
+border-radius: 16px;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+ .width-shado{
+    width: 579px;
+height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80); */
+backdrop-filter: blur(2.5px); */
+}  
+
+.width-shado{
+    margin-left: 600px;
+}
+
+.tour-mj{
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+}
+.width-mj{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80); */
+    backdrop-filter: blur(2.5px); */
+}
+
+.tour-heleskay{
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+}
+.width-heleska{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80); */
+    backdrop-filter: blur(2.5px); */
+}
+
+.hotel-dec{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.hotel-title3{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.width-heleska{
+    margin-left: 500px;
+    position: relative;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.many{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+}
+.butt-part1{
+    width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+}
+/*Deals & end*/
+
+.a-simpli{
+    display: flex;
+} 
+
+.simpli1{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px;
+}
+
+.simpli-a-1{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.img-simpli{
+    margin-left: 50px;
+   
+
+}
+
+/* .img-simpli{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+} */
+/*--end*/
+
+.Newsletter{
+    display: flex;
+   
+}
+.Newsletter-tex{
+    margin-top: 50px;
+}
+.text1{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+
+.text2{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.enter1{
+    width: 170px;
+    height: 52px;
+    border-radius: 8px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+.ent{
+    width: 170px;
+    height: 52px;
+    border-radius: 8px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.butbr{
+    width: 170px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+margin-top: 10px;
+color: white;
+}
+
+.img-70{
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    margin-left: 70px;
+}
+
+ .bash{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+color: white;
+text-align: center;
+} 
+
+.bash{
+    position: relative;
+    left: 344px;
+  bottom:190px;
+  
+}
+
+.lest-part2{
+    display: flex;
+    justify-content: center;
+}
+
+.lest-part3{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.fines1{
+    position: relative;
+margin-left: 600px;
+}
+
+.lest-continer{
+    margin-top: 50px;
+    width: 1440px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.Rights{
+    text-align: center;
+    margin-top: 100px;
+}
